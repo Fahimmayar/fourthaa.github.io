@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatore</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="forms">
+            <form action="">
+                <div class="elment">
+                    <label for="num1">Number 1: </label>
+                    <input type="number" id="num1" class="input">
+                </div>
+                <div class="elment">
+                    <label for="num1">Number 2: </label>
+                    <input type="number" id="num2" class="input">
+                </div>
+                <div class="element check">
+                    <h2>Operation: </h2>
+                    <hr>
+                    <br>
+                    <label for=""><input type="radio" class="checkbox" checked name="opt" id="" value="+">&nbsp;Addition</label>
+                    <label for=""><input type="radio" class="checkbox" name="opt" id="" value="-">&nbsp;Subtraction</label>
+                    <label for=""><input type="radio" class="checkbox" name="opt" id="" value="*">&nbsp;Muliply</label>
+                    <label for=""><input type="radio" class="checkbox" name="opt" id="" value="/">&nbsp;Division</label>
+                </div>
+                <div class="element btns">
+                    <button type="button" class="btn" onclick="checkResult()">Check Result</button>
+                </div>
+                <div class="result">
+                    <h1 id="result"></h1>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="asset/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: #8E2DE2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container{
+    width: 40%;
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.forms{
+    padding: 50px;
+}
+
+.elment{
+    margin-top: 20px;
+}
+
+.elment label{
+    display: block;
+    color: white;
+    font-size: 24px;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.elment .input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    color: orange;
+    font-size: 18px;
+}
+
+.check{
+    text-align: left;
+    padding: 20px 0px;
+}
+
+.check label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.btns{
+    text-align: right;
+}
